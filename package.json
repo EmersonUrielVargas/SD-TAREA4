@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmersonUrielVargas/SD-TAREA4.git"
+  },
+  "author": "Emerson Vargas Alba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmersonUrielVargas/SD-TAREA4/issues"
+  },
+  "homepage": "https://github.com/EmersonUrielVargas/SD-TAREA4#readme"
+}
