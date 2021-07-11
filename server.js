@@ -7,11 +7,7 @@ const port = 5000
 
 let productos = [
     { name: 'Arroz', price: 9800},
-    { name: 'Pasta', price: 2300},
-    { name: 'Azucar', price: 2500},
-    { name: 'Cafe', price: 8800},
-    { name: 'Mantequilla', price: 1150},
-    { name: 'panela', price: 1800},
+    { name: 'panela', price: 1800}
 ];
 
 app.use(express.json());
