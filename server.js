@@ -20,6 +20,12 @@ app.get('/',(req, res) => {
     res.send(productos)
 })
 
+app.post('/',(req, res) => {
+    productos.push(req.body);
+    res.send(productos)
+})
+
+
 app.listen(port, () => {
     console.log('Example app listening at http://localhost:5000')
 })
